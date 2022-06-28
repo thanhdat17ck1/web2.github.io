@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> About page </title>
+  <meta name="keywords" content="">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <header class="c-header">
+    <div class="l-container">
+      <div class="c-header__link">
+        <a href="#">掲載･取材依頼の企業様へ</a>
+      </div>
+      <div class="c-navigation">
+        <div class="c-header__logo">
+          <a href="./">
+            <img src="./assets/img/logo.png" alt="シゴト図鑑">
+          </a>
+        </div>
+        <ul>
+          <li><a href="#">企業一覧</a></li>
+          <li><a href="./about.html">愛媛シゴト図鑑とは</a></li>
+          <li><a href="#">インタビュー</a></li>
+          <li><a href="#">ニュース</a></li>
+          <li><a href="./contact.html">お問い合わせ</a></li>
+        </ul>
+        <div class="c-navigation__link-sp">
+          <div class="c-navigation__item-sp item-contact">
+            <a href="contact.html">
+              <img src="./assets/img/sp-icon1.png" alt="icon">
+              <p>お問い合わせ</p>
+            </a>
+          </div>
+          <div id="btnShowMenu" class="c-navigation__item-sp item-menu">
+            <a href="#">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="c-menu__sp">
+        <ul>
+          <li><a href="#">ホーム</a></li>
+          <li><a href="#">企業一覧</a></li>
+          <li><a href="./about.html">愛媛シゴト図鑑とは</a></li>
+          <li><a href="#">インタビュー</a></li>
+          <li><a href="#">ニュース</a></li>
+          <li><a href="#">運営会社</a></li>
+          <li><a href="./contact.html">お問い合わせ</a></li>
+        </ul>
+        <div class="c-menusp__contact">
+          <p class="c-menusp__tel"><span>TEL.</span>089-947-1411</p>
+          <p class="c-menusp__time">受付時間9:00〜17:00(平日のみ)</p>
+        </div>
+        <div class="c-menusp__link">
+          <a href="#">掲載･取材のご依頼についてはこちら</a>
+          <a href="#">プライバシーポリシー</a>
+          <a href="#">利用規約</a>
+          <a class="c-menusp__close"><span><i class="fa-solid fa-xmark"></i></span> 閉じる</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="p-contact">
+    <section class="c-banner__contact">
+      <div class="l-container">
+        <div class="c-banner__info">
+          <div class="c-banner__title">
+            <h1> Contact </h1>
+            <p>お問い合わせ</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="p-contact__top">
+      <div class="l-container">
+        <div class="c-breadcrumb">
+          <ul class="c-breadcrumb__detail">
+            <li><a href="index.html">ホーム </a></li>
+            <li>お問い合わせ</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <section class="p-contact__content">
+      <div class="l-container-sm">
+        <div class="p-contact__top">
+          <div class="p-contact__top-title">
+            <h3>一般･学生の皆様へ</h3>
+            <p>この度は愛媛シゴト図鑑をご覧いただきありがとうございます。<br> 愛媛シゴト図鑑を見て疑問に思ったこと、ご質問等ございましたら下記の問い合わせフォームにて意見をお寄せください
+              。少し聞きづらいなと思うようなことも遠慮なくご質問ください。愛媛シゴト図鑑は頑張る就活生を応援しています！<br> 個人情報の取扱に関しましては、<a
+                href="#">プライバシーポリシー</a>をご確認ください。<br>
+              <span class="u-red">※ は入力必須です。</span>
+            </p>
+          </div>
+        </div>
+        <div class="c-form">
+          <form method="POST">
+            <div class="c-form__row">
+              <div class="c-form__item">
+                <label for="name" class="c-form__label">氏名<span class="u-red">※</span></label>
+                <div class="c-form__input">
+                  <input type="text" name="name" id="name" required>
+                </div>
+              </div>
+            </div>
+            <div class="c-form__row">
+              <div class="c-form__item">
+                <label for="company" class="c-form__label">会社・学校名 </label>
+                <div class="c-form__input">
+                  <input type="text" name="company" id="company">
+                </div>
+              </div>
+            </div>
+            <div class="c-form__row">
+              <div class="c-form__item">
+                <label for="address" class="c-form__label">住所 </label>
+                <div class="c-form__input">
+                  <input type="text" class="u-w100" name="address" id="address">
+                </div>
+              </div>
+            </div>
+            <div class="c-form__row">
+              <div class="c-form__item">
+                <label for="phone" class="c-form__label">電話番号 <span class="u-red">※</span>
+                </label>
+                <div class="c-form__input">
+                  <input type="text" name="phone" id="phone" required>
+                </div>
+              </div>
+            </div>
+            <div class="c-form__row">
+              <div class="c-form__item">
+                <label for="email" class="c-form__label">メールアドレス <span class="u-red">※</span>
+                </label>
+                <div class="c-form__input">
+                  <input type="email" name="email" id="email" required>
+                </div>
+              </div>
+            </div>
+            <div class="c-form__row">
+              <div class="c-form__item">
+                <label for="know" class="c-form__label">本サイトを知ったきっかけ</label>
+                <div class="c-form__input">
+                  <div class="c-form__box">
+                    <div class="c-form__checkbox">
+                      <input name="search" id="search" type="checkbox">
+                      <label for="search">検索</label>
+                    </div>
+                    <div class="c-form__checkbox">
+                      <input name="booklet" id="booklet" type="checkbox">
+                      <label for="booklet">冊子</label>
+                    </div>
+                    <div class="c-form__checkbox">
+                      <input name="advertising" id="advertising" type="checkbox">
+                      <label for="advertising">ネット広告</label>
+                    </div>
+                    <div class="c-form__checkbox">
+                      <input name="mouth" id="mouth" type="checkbox">
+                      <label for="mouth">口コミ</label>
+                    </div>
+                    <div class="c-form__checkbox u-mr0">
+                      <input name="flyer" id="flyer" type="checkbox">
+                      <label for="flyer">チラシ</label>
+                    </div>
+                    <div class="c-form__checkbox u-mt2">
+                      <input name="search1" id="search1" type="checkbox">
+                      <label for="search1">検索</label>
+                    </div>
+                    <div class="c-form__checkbox full-width">
+                      <input type="text" name="know" id="know" class="u-w100">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="c-form__row">
+              <div class="c-form__item">
+                <label for="content" class="c-form__label"> お問い合わせ内容<span class="u-red">※</span>
+                </label>
+                <div class="c-form__input">
+                  <textarea rows="10" name="content" id="content" cols="20"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="c-button">
+              <!-- <input type="submit" value="" class="c-button__link"> -->
+              <button type="submit" class="c-button__link">この内容で送信する</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="c-footer">
+    <div class="c-footer__scroll">
+      <a href="#"><img src="./assets/img/totop.png" alt="#"></a>
+    </div>
+    <div class="c-footer__inner">
+      <div class="l-container">
+        <div class="c-footer__left">
+          <p class="c-footer__logo"><a href="./"><img src="./assets/img/f_logo.png" alt="愛媛シゴト図鑑"></a></p>
+          <p class="c-footer__ttl">【運営】株式会社愛媛経済レポート</p>
+          <p class="c-footer__address"><span>〒790-0011</span>　愛媛県松山市千舟町4丁目5-4　松山千舟454ビル5F</p>
+        </div>
+        <div class="c-footer__center">
+          <p class="c-footer__txt">掲載企業に関するご質問や資料請求などお気軽にご相談ください｡</p>
+          <p class="c-footer__tel c-only__pc"><span>TEL.</span>089-947-1411</p>
+          <p class="c-footer__tel c-only__sp"><span>TEL.</span><a href="tel:089-947-1411">089-947-1411</a></p>
+          <p class="c-footer__time"><span>受付時間</span>9:00〜17:00（平日のみ）</p>
+        </div>
+        <div class="c-footer__right">
+          <a href="./contact/">お問い合わせはこちら</a>
+          <a href="#">掲載・取材依頼の企業様へ</a>
+        </div>
+      </div>
+    </div>
+    <div class="c-footer__copyright"> ©2018 Ehime Keizai Report Inc, </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
